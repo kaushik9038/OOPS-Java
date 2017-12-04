@@ -1,7 +1,9 @@
 package controller;
 
+import model.Banking;
+
 public interface Bank {
 
-	public void currentAccount();
+	public Banking currentAccount();
 	public void savingAccount();
 }

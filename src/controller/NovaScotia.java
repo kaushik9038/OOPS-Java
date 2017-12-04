@@ -1,16 +1,16 @@
 package controller;
 
-public class NovaScotia implements Bank {
+public class NovaScotia extends RoyalBankOfCanada {
 
-	@Override
-	public void currentAccount() {
-		
-		
-	}
-
-	@Override
-	public void savingAccount() {
-				
-	}
+public void savingAccount(){
+	
+	Integer a =10; //Boxing
+	int as = a; // unboxing
+	
+	
+	
+	
+	
+}
 
 }

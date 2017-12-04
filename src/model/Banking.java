@@ -22,6 +22,12 @@ public class Banking {
 		this.accountNumber = accountNumber;
 		DOB = dOB;
 	}
+	
+	public Banking(String usernames , String dOB){
+		super();
+		this.username=usernames;
+		this.DOB=dOB;
+	}
 
 
 	public String getUsername() {
